@@ -1,0 +1,9 @@
+server:
+  port: 11020
+spring:
+  application:
+    name: product-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.2.106:8848
